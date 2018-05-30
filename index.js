@@ -1,6 +1,13 @@
-var distict = {
+var district = {
     tnDistrict: "5th"
 }
+function nameDistrict(numberOfDistrict) {
+    district.tnDistrict = numberOfDistrict;
+    console.log(numberOfDistrict);
+}   
+console.log(district.tnDistrict);
+nameDistrict("Fifth");
+console.log(district.tnDistrict);
 
 const platforms = {
     Taxes: "Cut Taxes",
@@ -9,8 +16,16 @@ const platforms = {
     Health_care: "Universal healh care",
     Crime_and_enforcement: "Prevent crime by enforcing laws"
 }
+function changePlatforms(editTaxes) {
+    platforms.Taxes = editTaxes;
+    console.log(editTaxes);
+}
+console.log(platforms.Taxes);
+changePlatforms("I am going to get rid of all taxes");
+console.log(platforms.Taxes);
+
 var urlDonation = {
-    siteURLd = "www.facebook.com"
+    siteURLd: "www.facebook.com"
 }
 var calendar = {
     events: [
