@@ -95,6 +95,27 @@ function changeObjectState (targetObject, keyReference, equalsValue) {
 
 // ------------------------------------------------------------------------------------------------------------------------
 
+//ADVANCED CHALLENGE//
+function createArticle() {
+    let newArticle = document.createElement("article");
+    newArticle.setAttribute("id", sangerElizabeth.tnCongressionalDistrict);
+    document.querySelector("body").appendChild(newArticle);
+    return newArticle;
+}
+createArticle();
+
+function createParagraph () {
+    let newParagraph = document.createElement("paragraph");
+    let newParagraphText = document.createTextNode = `${sangerElizabeth.platform}`
+    newParagraph.textContent = newParagraphText;
+    document.getElementById("5th").appendChild(newParagraph);
+    return newParagraph;
+}
+
+createParagraph(sangerElizabeth);
+
+// ------------------------------------------------------------------------------------------------------------------------
+
 ///FIRST ATTEMPT AT EXCERCISE///
 // var district = {
 //     tnDistrict: "5th"
