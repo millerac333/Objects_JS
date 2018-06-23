@@ -72,6 +72,29 @@ let sangerElizabeth = {
     }
 }
 
+// ------------------------------------------------------------------------------------------------------------------------
+
+///CHALLENGE///
+//THIS FUNCTION WILL CHANGE THE STATE OF AN OBJECT LIKE THE ONE CREATED ABOVE//
+function changeObjectState (targetObject, keyReference, equalsValue) {
+    targetObject[keyReference] = equalsValue;
+}
+// console.log(sangerElizabeth);
+
+// changeObjectState(sangerElizabeth.platform, "jobs", "start a revolution");
+// console.log(sangerElizabeth);
+
+// changeObjectState(sangerElizabeth.platform, "taxes", "taxes? who needs taxes? REVOLT!");
+// console.log(sangerElizabeth);
+
+// changeObjectState(sangerElizabeth.missionStatement, "statement", "TAKE TO THE STREET MY FELLOW jedi AND RISE UP!");
+// console.log(sangerElizabeth);
+
+// changeObjectState(sangerElizabeth.volInfo.volunteer[1], "Avalibility", "never-DWADE is about to retire");
+// console.log(sangerElizabeth);
+
+// ------------------------------------------------------------------------------------------------------------------------
+
 ///FIRST ATTEMPT AT EXCERCISE///
 // var district = {
 //     tnDistrict: "5th"

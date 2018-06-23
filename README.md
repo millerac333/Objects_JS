@@ -34,3 +34,26 @@ Image gallery
 Mission statement
 
 URL for registering to vote
+
+-----------------------------------------------------------------
+
+CHALLENGE
+After you have defined all the objects for representing the data, write a corresponding function for each one whose purpose is to change the state of the object. Then invoke each function, and pass a reference to the correct object to it and modify a property.
+
+Example:
+
+function changeBookState (anyBookObject, thePropertyToChange) {
+    ...
+}
+
+const jest = {
+    title: "The Infinite Jest",
+    author: "David Foster Wallace",
+    publishDate: "1 February 1996"
+}
+
+const lamb = {
+    title: "Lamb: The Gospel According to Biff",
+    author: "Christopher Moore",
+    publishDate: "25 May 2004"
+}
