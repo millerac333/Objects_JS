@@ -75,10 +75,9 @@ let sangerElizabeth = {
   }
 };
 
-// ------------------------------------------------------------------------------------------------------------------------
+//CHALLENGE
+//THIS FUNCTION WILL CHANGE THE STATE OF AN OBJECT LIKE THE ONE CREATED ABOVE
 
-///CHALLENGE///
-//THIS FUNCTION WILL CHANGE THE STATE OF AN OBJECT LIKE THE ONE CREATED ABOVE//
 function changeObjectState(targetObject, propertyReference, equalsValue) {
   targetObject[propertyReference] = equalsValue;
 }
