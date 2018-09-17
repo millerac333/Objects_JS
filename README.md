@@ -66,3 +66,4 @@ const lamb = {
 ## Run Program
 1. open in code editor 
 2. launch in browswer
+3. view console in dev tools 
